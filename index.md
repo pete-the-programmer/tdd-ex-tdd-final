@@ -8,7 +8,7 @@ Welcome to _Total Complexity Games_, maker of games that maximise the fun by max
 
 Word has come down from on high that we need _you_ to write the main code for calculating the score in our new game __Complica__.  Not all the details have come out yet, but the main requirements are:
 
-1. The _Game Experience_ department have decided that the players can choose between two kinds of __characters__ that make up the basis of the game.  The __Tortoises__ get more points per prize but cost more to start with, and the __Hares__ that are cheap and can move more quickly, but they have lower prize values.  They have drawn up a table of the character's traits.
+1. The _Game Research_ department have decided that the players can choose between two kinds of __characters__ that make up the basis of the game.  The __Tortoises__ get more points per prize but cost more to start with, and the __Hares__ that are cheap and can move more quickly, but they have lower prize values.  They have drawn up a table of the character's traits.
 
     | Character | Initial Cost | Prize Worth | 
     |-----------|-------------:|------------:|
