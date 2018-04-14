@@ -22,5 +22,5 @@ Word has come down from on high that we need _you_ to write the main code for ca
     | Tortoise  |            1 |     -7.7  |
     | Tortoise  |            2 |      0.3  |
     | Tortoise  |            3 |      8.3  |
-    | Hare      |            1 |     -7.5  |
+    | Hare      |            1 |     -2.5  |
     | Hare      |            5 |      9.5  |
