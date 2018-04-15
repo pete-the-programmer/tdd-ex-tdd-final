@@ -24,3 +24,15 @@ Word has come down from on high that we need _you_ to write the main code for ca
     | Tortoise  |            3 |      8.3  |
     | Hare      |            1 |     -2.5  |
     | Hare      |            5 |      9.5  |
+
+## Instructions
+
+Writing the tests first, create a calculator that can generate the score for a selected character and number of prizes opened.
+
+HINT: Write a test case for each row of the BA's table.  Make each row go green _before_ moving to the next row.
+
+## Next step
+
+Don't move on until you have completely finished this page.
+
+When you have finished, you may move on to [phase 2](phase2.md)
