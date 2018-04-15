@@ -1,3 +1,8 @@
+---
+title: TDD Final Exercise
+description: Pete the Programmer
+---
+
 # TDD Final Exercise
 
 In this exercise we start from a blank slate and build the solution __Test First__.  Please complete each phase before even looking at the next one.
