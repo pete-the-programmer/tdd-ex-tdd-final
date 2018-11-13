@@ -1,9 +1,4 @@
----
-title: Complica Phase II
-description: Pete the Programmer
----
-
-# Complica Phase II
+## Phase II
 
 So far so good.
 

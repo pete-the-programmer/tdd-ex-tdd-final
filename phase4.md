@@ -1,9 +1,4 @@
----
-title: Complica Phase IV
-description: Pete the Programmer
----
-
-# Complica Phase IV
+## Phase IV
 
 ... something here about wanting to test the user interaction with a time limit
 

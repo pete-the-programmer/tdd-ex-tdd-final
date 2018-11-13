@@ -1,9 +1,4 @@
----
-title: Complica Phase III
-description: Pete the Programmer
----
-
-# Complica Phase III
+## Complica
 
 Kim, the co-leader of the _Player Experience_ group feels that everyone likes to get something for free.
 
