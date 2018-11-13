@@ -24,3 +24,9 @@ This can be shown now as:
 | Tortoise  |            10 |         151   |      44.3 |
 | Hare      |            10 |          20   |      24.5 |
 | Hare      |            10 |         151   |       0.5 |
+
+## Next step
+
+Don't move on until you have completely finished this page.
+
+When you have finished, you may move on to [phase 3](phase3.md)
