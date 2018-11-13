@@ -6,7 +6,7 @@ The idea is that prizes reap a __larger reward__ at an ever increasing rate as t
 
 The _Business Analysis_ team says that the change is "trivial" and didn't bother to make a truth table this time.  Perhaps, you could make one yourself?
 
-## Next step
+### Next step
 
 Don't move on until you have completely finished this page.
 

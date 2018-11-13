@@ -1,6 +1,6 @@
 In this exercise we start from a blank slate and build the solution __Test First__.  Please complete each phase before even looking at the next one.
 
-## The beginning...
+### The beginning...
 
 Welcome to _Total Complexity Games_, maker of games that maximise the fun by maximising the complexity of the scoring!
 
@@ -23,13 +23,13 @@ Word has come down from on high that we need _you_ to write the main code for ca
     | Hare      |            1 |     -2.5  |
     | Hare      |            5 |      9.5  |
 
-## Instructions
+### Instructions
 
 Writing the tests first, create a calculator that can generate the score for a selected character and number of prizes opened.
 
 HINT: Write a test case for each row of the BA's table.  Make each row go green _before_ moving to the next row.
 
-## Next step
+### Next step
 
 Don't move on until you have completely finished this page.
 

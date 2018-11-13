@@ -25,7 +25,7 @@ This can be shown now as:
 | Hare      |            10 |          20   |      24.5 |
 | Hare      |            10 |         151   |       0.5 |
 
-## Next step
+### Next step
 
 Don't move on until you have completely finished this page.
 
