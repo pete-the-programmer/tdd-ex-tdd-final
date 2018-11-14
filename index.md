@@ -33,4 +33,4 @@ HINT: Write a test case for each row of the BA's table.  Make each row go green 
 
 Don't move on until you have completely finished this page.
 
-When you have finished, you may move on to [phase 2](phase2.md)
+When you have finished, you may move on to [phase 2](phase2)

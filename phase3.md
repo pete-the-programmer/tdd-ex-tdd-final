@@ -10,4 +10,4 @@ The _Business Analysis_ team says that the change is "trivial" and didn't bother
 
 Don't move on until you have completely finished this page.
 
-When you have finished, you may move on to [phase 4](phase4.md)
+When you have finished, you may move on to [phase 4](phase4)

@@ -29,4 +29,4 @@ This can be shown now as:
 
 Don't move on until you have completely finished this page.
 
-When you have finished, you may move on to [phase 3](phase3.md)
+When you have finished, you may move on to [phase 3](phase3)

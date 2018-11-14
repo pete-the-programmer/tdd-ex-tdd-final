@@ -24,3 +24,7 @@ The relevant portion of code is as below.  Please include this in your solution 
     }
 
 ````
+
+Your mission is to refactor the tests created in [phase 2](phase2) to use this _GameContext_ and remove the _Game Time_ value.
+
+### Fin
