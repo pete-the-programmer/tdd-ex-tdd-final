@@ -12,9 +12,9 @@ Now each player is allotted 100 __energy blocks__, which run down at a rate of 1
 
 However, the _Player Gamification_ team thinks that it would be fun to allow players to __trade-in points__ for another 50 energy blocks, at a rate of 10 points for _Tortoises_ and 12 points for _hares_. 
 
-Bob in the main _Game Engine Developers_ pod says that it's too difficult to store the number of times a player trades in for more time, but cheerfully says that it would be no problem to provide the total game time and let you "sort it out from there".
+Bob in the main _Game Engine Developers_ pod says that it's too difficult to store the number of times a player trades in for more time, but cheerfully says that there is a _GameContext_ object that includes the game start time and let you "sort it out from there".
 
-This can be shown now as:
+So, the score can now be calculated as:
 
 | Character | Number Prizes | Game Time (s) | __Score__ |
 |-----------|--------------:|--------------:|----------:|
@@ -24,6 +24,28 @@ This can be shown now as:
 | Tortoise  |            10 |         151   |      44.3 |
 | Hare      |            10 |          20   |      24.5 |
 | Hare      |            10 |         151   |       0.5 |
+
+
+NOTE: Please include the following reference code in your solution to provide the game context.
+
+```` csharp
+
+    public sealed class GameContext {
+
+        public GameContext() {
+            GameStarted = DateTime.UtcNow;
+        }
+
+        public DateTime StartedTime {get; private set;}
+
+        public DateTime CurrentTime{
+            get{
+                return DateTime.Now;
+            }
+        }
+    }
+
+````
 
 ### Next step
 

@@ -1,30 +1,11 @@
-## Phase IV : Time Limits
+## Phase IV : Time of Day Bonus
 
-The product is just about to be released and the final QA phase has found that the _Game Time_ value generated in the engine is unreliable in the extreme on the newest hardware.  It has been decided that the routine is to be scrapped and so the value can't be provided to generate the energy calculations made in [phase 2](phase2).
+The product is just about to be released and the _Product Launch Tiger Team_ has reminded everyone that 
+in the supplementary documentation kept in the business section of the CRM it states:
+> every player that starts a game between the __11th of June 2018 at 9am__ and the __17 of July 2018 at 5pm__ (NZ Time) will get a bonus of _30 points_ at the start of the game.
 
-Instead the _GameContext_ object has a start time (in UTC) for the game that can be used as a starting point to calculate the current game running time.
+Your mission is to add these bonus rules to the scoring calculator, remembering to check the boundaries either side of the bonus time window.
 
-The relevant portion of code is as below.  Please include this in your solution and use it to provide the relevant data.
-
-```` csharp
-
-    public sealed class GameContext {
-
-        public GameContext() {
-            GameStarted = DateTime.Now;
-        }
-
-        public DateTime GameStarted {get; private set;}
-
-        public DateTime GameTime{
-            get{
-                return DateTime.Now;
-            }
-        }
-    }
-
-````
-
-Your mission is to refactor the tests created in [phase 2](phase2) to use this _GameContext_ and remove the _Game Time_ value.
+HINT: You may need to deal with the _DateTime_ static object that is embedded in the _GameContext_.
 
 ### Fin
