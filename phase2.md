@@ -16,14 +16,16 @@ Bob in the main _Game Engine Developers_ pod says that it's too difficult to sto
 
 So, the score can now be calculated as:
 
-| Character | Number Prizes | Game Time (s) | __Score__ |
-|-----------|--------------:|--------------:|----------:|
-| Tortoise  |            10 |          20   |      64.3 |
-| Tortoise  |            10 |          99   |      64.3 |
-| Tortoise  |            10 |         101   |      54.3 |
-| Tortoise  |            10 |         151   |      44.3 |
-| Hare      |            10 |          20   |      24.5 |
-| Hare      |            10 |         151   |       0.5 |
+| Character | Number Prizes | Game Time (s) | __Score__ | __Energy__ |
+|-----------|--------------:|--------------:|----------:|-----------:|
+| Tortoise  |             0 |           0   |       0.0 |        100 |
+| Tortoise  |            10 |          20   |      64.3 |         80 |
+| Tortoise  |            10 |          99   |      64.3 |          1 |
+| Tortoise  |            10 |         101   |      54.3 |         99 |
+| Tortoise  |            10 |         151   |      44.3 |         99 |
+| Hare      |            10 |          20   |      24.5 |         80 |
+| Hare      |            10 |         101   |      12.5 |         99 |
+| Hare      |            10 |         153   |       0.5 |         97 |
 
 
 NOTE: Please include the following reference code in your solution to provide the game context.
