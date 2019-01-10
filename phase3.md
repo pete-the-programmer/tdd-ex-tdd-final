@@ -1,10 +1,53 @@
-## Phase III : Increasing Rewards
+## Phase II : Energy
 
-Kim, the co-leader of the _Player Experience_ group feels that everyone likes to get something for free.
+So far so good.
 
-The idea is that prizes reap a __larger reward__ at an ever increasing rate as the game goes on.  So after the first 7 prizes, a _Tortoise_ gets 9 points and a _Hare_ gets 4 points per prize.  After 14 prizes, a _Tortoise_ gets 10 points, and a _Hare_ gets 5 points.  An so on, increasing by one when every 7 prizes are attained.
+Ms. Lovejoy in charge of _Customer Turnover_ always says 
 
-The _Business Analysis_ team says that the change is "trivial" and didn't bother to make a truth table this time.  Perhaps, you could make one yourself?
+> a short game is a good game
+
+...especially when the players pay for every game started.
+
+Now each player is allotted 100 __energy blocks__, which run down at a rate of 1 per second.  When the energy hits zero the game is over.
+
+However, the _Player Gamification_ team thinks that it would be fun to allow players to __trade-in points__ for another 50 energy blocks, at a rate of 10 points for _Tortoises_ and 12 points for _hares_. 
+
+Bob in the main _Game Engine Developers_ pod says that it's too difficult to store the number of times a player trades in for more time, but cheerfully says that there is a _GameContext_ object that includes the game start time and let you "sort it out from there".
+
+So, the score can now be calculated as:
+
+| Character | Number Prizes | Game Time (s) | __Score__ | __Energy__ |
+|-----------|--------------:|--------------:|----------:|-----------:|
+| Tortoise  |             0 |           0   |       0.0 |        100 |
+| Tortoise  |            10 |          20   |      64.3 |         80 |
+| Tortoise  |            10 |          99   |      64.3 |          1 |
+| Tortoise  |            10 |         101   |      54.3 |         99 |
+| Tortoise  |            10 |         151   |      44.3 |         99 |
+| Hare      |            10 |          20   |      24.5 |         80 |
+| Hare      |            10 |         101   |      12.5 |         99 |
+| Hare      |            10 |         153   |       0.5 |         97 |
+
+
+NOTE: Please include the following reference code in your solution to provide the game context.
+
+```` csharp
+
+    public sealed class GameContext {
+
+        public GameContext() {
+            GameStarted = DateTime.UtcNow;
+        }
+
+        public DateTime StartedTime {get; private set;}
+
+        public DateTime CurrentTime{
+            get{
+                return DateTime.Now;
+            }
+        }
+    }
+
+````
 
 ### Next step
 
