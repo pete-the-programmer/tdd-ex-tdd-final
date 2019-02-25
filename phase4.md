@@ -10,8 +10,8 @@ _NOTE_: Please include the following reference code in your solution to provide 
 
 ```` csharp
     public interface IGameContext {
-        DateTime GameStarted {get;}
-        DateTime GameTime {get;}
+        DateTime StartedTime {get;}
+        DateTime CurrentTime {get;}
         int GameDuration {get;}
     }
 
